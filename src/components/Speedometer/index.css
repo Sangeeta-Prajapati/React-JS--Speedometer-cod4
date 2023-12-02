@@ -1,0 +1,85 @@
+/* Write your CSS here */
+
+* {
+  margin: 0px;
+}
+body {
+  box-sizing: border-box;
+}
+
+.bg-container {
+  font-family: 'Roboto';
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-size: cover;
+  background-color: #07080c;
+  padding: 50px;
+}
+
+.image {
+  width: 50%;
+  margin: 20px;
+}
+
+.heading {
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.sub-heading {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 500;
+  margin: 15px;
+}
+.des {
+  color: #cbd5e1;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.accelerate-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  height: 35px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.brake-button {
+  color: #94a3b8;
+  background-color: transparent;
+  font-size: 15px;
+  border: 1px solid #94a3b8;
+  border-radius: 5px;
+  height: 35px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 40px;
+  }
+  .des {
+    font-size: 15px;
+  }
+  .sub-heading {
+    font-size: 25px;
+  }
+  .bg-container {
+    background-size: cover;
+    min-height: 150px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .bg-container {
+    min-height: 200px;
+  }
+}
